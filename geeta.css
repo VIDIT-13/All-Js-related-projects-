@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: poppins;
+    font-weight: 200;
+    color: lightcoral;
+}
+#heading{
+    margin-left: 23vw;
+    margin-top: 20px;
+}
+body{
+    /* width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: black;
+}
+#result{
+    margin-left: 20vw;
+    margin-top: 20vh;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+.card {
+    width: 60vw;
+    height: 120vh;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 60vw;
+    height: 120vh;
+    background-color: #1a1a1a;
+    border-radius:0;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+   
+   /* From Uiverse.io by Praashoo7 */ 
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+  #inputs{
+    margin-left: 45vw;
+    margin-top: 75px;
+  }
+  #verse{
+    margin-top: 10px;
+  }
+  /* From Uiverse.io by mrtqzbek11 */ 
+button {
+    width: 165px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+  }
+  
+  button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  button:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    transition: 0.5s;
+  }
+  #search{
+    margin-top: 50px;
+  }
+  .card2{
+    color: white;
+  }
+
+  #content{
+    text-align: center;
+    margin-left:5vw;
+    margin-top: 5vh;
+    width: 50vw;
+    height: 70vh;
+    
+    font-size: xx-large;
+  }
+  #engsum{
+    font-family: poppins;
+    font-size: large;
+  }
+  #hindisum{
+    color: yellow;
+    font-size: large;
+    margin-top:50px ; 
+ }
+ #verses{
+    font-family: poppins;
+ }
+
+ #arth{
+    margin-top: 30px;
+ }
+  /* From Uiverse.io by gksckt */ 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .btn:hover {
+    box-shadow: inset 0 0 0 4px #ef476f, 
+                inset 0 0 0 8px #ffd166, 
+                inset 0 0 0 12px #06d6a0,
+                inset 0 0 0 16px #118ab2;
+    background: #073b4c;
+    color: #fff;
+  }
+  #ver{
+    margin-top: 75px;
+    color: orange;
+  }
+
+  
+  #translation{
+    font-family: poppins;
+  }
+  #engsum{
+   color: lightcoral;
+  }
+  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
